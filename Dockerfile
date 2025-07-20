@@ -34,10 +34,10 @@ ADD --chmod=664 https://github.com/qemus/virtiso/releases/download/v0.1.248/virt
 
 EXPOSE 8006 3389
 
-ENV RAM_SIZE="4G"
+ENV RAM_SIZE="6G"
 ENV CPU_CORES="2"
 ENV DISK_SIZE="25G"
-ENV VERSION="win11"
+ENV VERSION="tiny10"
 ENV STORAGE="/run/storage"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
