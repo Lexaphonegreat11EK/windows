@@ -4,7 +4,7 @@ services:
     container_name: windows
     environment:
       VERSION: "tiny10"
-      DISK_SIZE: "23G"
+      DISK_SIZE: "16G"
       DISK2_SIZE: "2G"
       RAM_SIZE: "6G"
       LANGUAGE: "Ukrainian"
