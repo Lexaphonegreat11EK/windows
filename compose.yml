@@ -5,6 +5,7 @@ services:
     environment:
       VERSION: "tiny10"
       DISK_SIZE: "25G"
+      DISK2_SIZE: "2G"
       RAM_SIZE: "6G"
       LANGUAGE: "Ukrainian"
     devices:
